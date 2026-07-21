@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resume-grill-cn"
+version = "0.2.0"
+description = "本地运行的中文 AI 简历拷打机：审计量化声明、GitHub 证据和疑似夸大风险。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yuan Anpeng"}]
+dependencies = [
+  "streamlit>=1.36,<2",
+  "pypdf>=4.2",
+  "python-docx>=1.1",
+  "reportlab>=4.2",
+  "requests>=2.32"
+]
+
+[project.scripts]
+resume-grill = "resume_grill.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["resume_grill*"]
