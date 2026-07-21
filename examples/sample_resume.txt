@@ -1,0 +1,14 @@
+林小北
+求职方向：大模型算法工程师
+
+教育背景
+某大学 数据科学 本科 2022.09 - 2026.06
+
+项目经历
+• 独立从零设计企业级多智能体RAG平台，综合使用Qwen、Llama、vLLM、LangChain、Docker、Kubernetes与CUDA，实现问答准确率提升37.8%，推理速度提升52%。
+• 主导医学图像分割系统，在3000张临床图像上将IoU由81.2%提升到94.7%，达到行业领先水平。
+• 熟练掌握PyTorch、TensorFlow、JAX、CUDA、Triton、ONNX、TensorRT和分布式训练。
+
+科研与竞赛
+• 发表IEEE顶级会议论文2篇，并获得最佳论文奖。
+• Kaggle国际比赛金牌，排名Top 0.5%。

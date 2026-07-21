@@ -1,0 +1,185 @@
+{
+  "resume_name": "虚构演示简历.txt",
+  "generated_at": "2026-07-21 08:25",
+  "privacy_mode": "本地处理；无上传服务器；无遥测",
+  "overall_score": 15,
+  "evidence_score": 0,
+  "metric_score": 21,
+  "exaggeration_risk": 75,
+  "summary": "共识别 5 条可追问声明，其中严重风险 2 条、高风险 0 条。高风险不等于造假，通常表示缺少 baseline、原始日志、责任边界或公开证据。",
+  "global_flags": [
+    "发现 2 条严重追问风险声明，建议在投递前补齐证据或降级措辞。",
+    "未提供代码仓库，因此无法核对简历声明与代码、日志、提交记录的一致性。"
+  ],
+  "claims": [
+    {
+      "claim": "独立从零设计企业级多智能体RAG平台，综合使用Qwen、Llama、vLLM、LangChain、Docker、Kubernetes与CUDA，实现问答准确率提升37.8%，推理速度提升52%。",
+      "category": "量化成果",
+      "risk_score": 82,
+      "evidence_score": 0,
+      "risk_level": "严重",
+      "flags": [
+        "量化结果缺少明确 baseline",
+        "缺少实验上下文",
+        "责任边界不清",
+        "技术栈过密"
+      ],
+      "missing_evidence": [
+        "基线配置和修改前结果",
+        "数据规模、划分、硬件和测试设置",
+        "个人贡献与团队贡献的边界",
+        "每项技术的具体使用位置"
+      ],
+      "questions": [
+        "请用 60 秒说明这条经历中你本人真正完成的部分：独立从零设计企业级多智能体RAG平台，综合使用Qwen、Llama、vLLM、LangChain、Docker、Kubernetes与CUDA，实现问答准确率提升37.8%，推理速度提升52%。",
+        "请指出对应的代码文件、核心函数或实验脚本，并说明你修改了什么。",
+        "这些数字的 baseline、数据划分、硬件环境和重复实验次数分别是什么？",
+        "原始日志在哪里？如果重新运行，别人能否复现同样的结果？",
+        "团队中还有谁参与？哪些工作不是你做的？",
+        "这些技术中哪些只是调用过，哪些你能解释底层原理并现场调试？",
+        "你准备如何补齐这项证据：基线配置和修改前结果？"
+      ],
+      "evidence": {
+        "score": 0,
+        "matched_keywords": [],
+        "matched_numbers": [],
+        "files": [],
+        "snippets": [],
+        "notes": [
+          "未提供 GitHub 仓库或代码 ZIP。"
+        ]
+      }
+    },
+    {
+      "claim": "主导医学图像分割系统，在3000张临床图像上将IoU由81.2%提升到94.7%，达到行业领先水平。",
+      "category": "量化成果",
+      "risk_score": 76,
+      "evidence_score": 0,
+      "risk_level": "严重",
+      "flags": [
+        "缺少实验上下文",
+        "精确数字较多，面试官会要求原始记录",
+        "责任边界不清",
+        "绝对化或领先性表述需要强证据"
+      ],
+      "missing_evidence": [
+        "数据规模、划分、硬件和测试设置",
+        "原始日志或结果表",
+        "个人贡献与团队贡献的边界",
+        "同类方法对比、公开榜单或第三方验证"
+      ],
+      "questions": [
+        "请用 60 秒说明这条经历中你本人真正完成的部分：主导医学图像分割系统，在3000张临床图像上将IoU由81.2%提升到94.7%，达到行业领先水平。",
+        "请指出对应的代码文件、核心函数或实验脚本，并说明你修改了什么。",
+        "这些数字的 baseline、数据划分、硬件环境和重复实验次数分别是什么？",
+        "原始日志在哪里？如果重新运行，别人能否复现同样的结果？",
+        "团队中还有谁参与？哪些工作不是你做的？",
+        "你准备如何补齐这项证据：数据规模、划分、硬件和测试设置？",
+        "你准备如何补齐这项证据：原始日志或结果表？"
+      ],
+      "evidence": {
+        "score": 0,
+        "matched_keywords": [],
+        "matched_numbers": [],
+        "files": [],
+        "snippets": [],
+        "notes": [
+          "未提供 GitHub 仓库或代码 ZIP。"
+        ]
+      }
+    },
+    {
+      "claim": "发表IEEE顶级会议论文2篇，并获得最佳论文奖。",
+      "category": "论文/荣誉",
+      "risk_score": 39,
+      "evidence_score": 0,
+      "risk_level": "中",
+      "flags": [
+        "论文或荣誉缺少可核验入口"
+      ],
+      "missing_evidence": [
+        "官方检索页、DOI、证书或排名链接"
+      ],
+      "questions": [
+        "请用 60 秒说明这条经历中你本人真正完成的部分：发表IEEE顶级会议论文2篇，并获得最佳论文奖。",
+        "请指出对应的代码文件、核心函数或实验脚本，并说明你修改了什么。",
+        "这些数字的 baseline、数据划分、硬件环境和重复实验次数分别是什么？",
+        "原始日志在哪里？如果重新运行，别人能否复现同样的结果？",
+        "请提供论文检索页、DOI、获奖名单或官方排名页面。",
+        "你准备如何补齐这项证据：官方检索页、DOI、证书或排名链接？"
+      ],
+      "evidence": {
+        "score": 0,
+        "matched_keywords": [],
+        "matched_numbers": [],
+        "files": [],
+        "snippets": [],
+        "notes": [
+          "未提供 GitHub 仓库或代码 ZIP。"
+        ]
+      }
+    },
+    {
+      "claim": "Kaggle国际比赛金牌，排名Top 0.5%。",
+      "category": "竞赛",
+      "risk_score": 39,
+      "evidence_score": 0,
+      "risk_level": "中",
+      "flags": [
+        "论文或荣誉缺少可核验入口"
+      ],
+      "missing_evidence": [
+        "官方检索页、DOI、证书或排名链接"
+      ],
+      "questions": [
+        "请用 60 秒说明这条经历中你本人真正完成的部分：Kaggle国际比赛金牌，排名Top 0.5%。",
+        "请指出对应的代码文件、核心函数或实验脚本，并说明你修改了什么。",
+        "这些数字的 baseline、数据划分、硬件环境和重复实验次数分别是什么？",
+        "原始日志在哪里？如果重新运行，别人能否复现同样的结果？",
+        "请提供论文检索页、DOI、获奖名单或官方排名页面。",
+        "你准备如何补齐这项证据：官方检索页、DOI、证书或排名链接？"
+      ],
+      "evidence": {
+        "score": 0,
+        "matched_keywords": [],
+        "matched_numbers": [],
+        "files": [],
+        "snippets": [],
+        "notes": [
+          "未提供 GitHub 仓库或代码 ZIP。"
+        ]
+      }
+    },
+    {
+      "claim": "熟练掌握PyTorch、TensorFlow、JAX、CUDA、Triton、ONNX、TensorRT和分布式训练。",
+      "category": "技能声明",
+      "risk_score": 32,
+      "evidence_score": 0,
+      "risk_level": "中",
+      "flags": [
+        "能力表述过满"
+      ],
+      "missing_evidence": [
+        "可证明熟练度的项目或公开作品"
+      ],
+      "questions": [
+        "请用 60 秒说明这条经历中你本人真正完成的部分：熟练掌握PyTorch、TensorFlow、JAX、CUDA、Triton、ONNX、TensorRT和分布式训练。",
+        "请指出对应的代码文件、核心函数或实验脚本，并说明你修改了什么。",
+        "你准备如何补齐这项证据：可证明熟练度的项目或公开作品？"
+      ],
+      "evidence": {
+        "score": 0,
+        "matched_keywords": [],
+        "matched_numbers": [],
+        "files": [],
+        "snippets": [],
+        "notes": [
+          "未提供 GitHub 仓库或代码 ZIP。"
+        ]
+      }
+    }
+  ],
+  "repo_summary": {},
+  "model_used": "规则引擎",
+  "disclaimer": "本报告只识别证据缺口、表述矛盾和高追问风险，不能据此认定任何人造假。最终判断应结合原始代码、实验日志、证明材料和当事人解释。"
+}
