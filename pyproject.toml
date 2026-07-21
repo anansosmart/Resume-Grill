@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "resume-grill-cn"
-version = "0.2.0"
+version = "2.0.0"
 description = "本地运行的中文 AI 简历拷打机：审计量化声明、GitHub 证据和疑似夸大风险。"
 readme = "README.md"
 requires-python = ">=3.10"
